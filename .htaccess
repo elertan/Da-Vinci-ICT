@@ -1,0 +1,3 @@
+# Used to reroute to the public file
+RewriteEngine on
+RewriteRule ^(.*) public/$1 [L]
