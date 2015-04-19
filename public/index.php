@@ -20,7 +20,6 @@ class Startup {
 			
 			foreach (glob(("../" . $folderName . "/*.php")) as $filename) {
 				require($filename);
-				echo $filename . "<br>";
 			}
 
 		}
