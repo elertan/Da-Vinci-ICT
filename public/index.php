@@ -8,7 +8,7 @@
 class Startup {
 
 	// Autoloaded folders
-	private $loadFolderList = ["controllers", "core", "models"];
+	private $loadFolderList = ["core", "controllers", "models"];
 
 	/**
 	 * Loads all php files for use.

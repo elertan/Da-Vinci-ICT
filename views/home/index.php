@@ -1,0 +1,1 @@
+<h1>Hello, today is <?=$data->currentDate['weekday']?></h1>
