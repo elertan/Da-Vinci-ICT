@@ -1,1 +1,1 @@
-<h1>Hello, today is <?=$data->currentDate['weekday']?></h1>
+<h1 class="center">DaVinci ICT Website Alpha</h1>

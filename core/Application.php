@@ -39,7 +39,7 @@ class Application {
 		if (class_exists($controller_name)) {
 			$controller = new $controller_name;
 		} else {
-			View::renderWithoutHeadAndFooter('error/not_found');
+			View::render('error/not_found');
 			die();
 		}
 
@@ -50,7 +50,7 @@ class Application {
 				call_user_func([$controller, $method_name]);
 			}
 		} else {
-			View::renderWithoutHeadAndFooter('error/not_found');
+			View::render('error/not_found');
 			die();	
 		}
 
